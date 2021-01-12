@@ -2,7 +2,7 @@ const products = [
   {
     _id: '1',
     name: 'Bacon & Broccoli',
-    image: '/images/Bacon & Broccoli.png',
+    image: '/images/Bacon&Broccoli.png',
     description:
       'Bacon, Onion, Garlic, Broccoli, Olive Oil, Mozarrala Cheese',
     Group: 'Pork',
@@ -15,7 +15,7 @@ const products = [
   {
     _id: '2',
     name: 'BBQ Poncho',
-    image: '/images/BBQ Poncho.png',
+    image: '/images/BBQPoncho.png',
     description:
       'BBQ sauce, Chicken Breast Fillet, Paprika, Red Onion, Corn ',
     Group: 'Chicken',
@@ -28,7 +28,7 @@ const products = [
   {
     _id: '3',
     name: 'Chicken & Red Onion',
-    image: '/images/Chicken & Red Onion.png',
+    image: '/images/Chicken&RedOnion.png',
     description:
       'Chicken Breast, Red Onion, Mozzarella Cheese',
     Group: 'Chicken',
@@ -40,10 +40,10 @@ const products = [
   },
   {
     _id: '4',
-    name: 'Chilli Salami & Herder Cheese',
-    image: '/images/Chilli Salami & Herder Cheese.png',
+    name: 'Chilli Salami & Feta',
+    image: '/images/ChilliSalami&HerderCheese.png',
     description:
-      'Chilli, Salami, Herder Cheese',
+      'Chilli, Salami, Feta Cheese',
     Group: 'Pork',
     category: 'Pizza',
     price: 10,
@@ -67,7 +67,7 @@ const products = [
   {
     _id: '6',
     name: 'Creamy Chicken',
-    image: '/images/Creamy Chicken.png',
+    image: '/images/CreamyChicken.png',
     description:
       'Cream Sauce, Fresh Mushrooms, Chicken Breast fillet, Red Onion, Bacon',
     Group: 'Chicken',
@@ -93,7 +93,7 @@ const products = [
   {
     _id: '8',
     name: 'Ground Beef & Corn',
-    image: '/images/Ground Beef & Corn.png',
+    image: '/images/GroundBeef&Corn.png',
     description:
       'Groud Beef, Corn, Spicy Sauce',
     Group: 'Beef',
@@ -106,7 +106,7 @@ const products = [
   {
     _id: '9',
     name: 'Ground Beef & Corn',
-    image: '/images/Ground Beef & Corn.png',
+    image: '/images/GroundBeef&Corn.png',
     description:
       'Fresh Mushrooms, Red Onion, Mozzarella Cheese',
     Group: 'Veggie',
@@ -119,7 +119,7 @@ const products = [
   {
     _id: '10',
     name: 'Smokey Chicken',
-    image: '/images/Smokey Chicken.png',
+    image: '/images/SmokeyChicken.png',
     description:
       'BBQ Sauce, Chicken Breast Fillet, Red Onion, Cherry Tomatoes, Mozzarella Cheese',
     Group: 'Chicken',
@@ -132,7 +132,7 @@ const products = [
   {
     _id: '11',
     name: 'Steak & Bacon',
-    image: '/images/Steak & Bacon.png',
+    image: '/images/Steak&Bacon.png',
     description:
       'BBQ Sauce, Chicken Breast Fillet, Red Onion, Cherry Tomatoes, Mozzarella Cheese',
     Group: 'Beef',
@@ -145,7 +145,7 @@ const products = [
   {
     _id: '12',
     name: 'Supreme Chicken',
-    image: '/images/Supreme Chicken.png',
+    image: '/images/SupremeChicken.png',
     description:
       'Fresh Tomatoes, Chicken Breast Fillet, Red Oion, Bell Pepper',
     Group: 'Chicken',
@@ -158,20 +158,7 @@ const products = [
   {
     _id: '13',
     name: 'Teriyaki Chicken',
-    image: '/images/Teriyaki Chicken.png',
-    description:
-      'Chicken Breast Fillet, Broccoli, Spring Onion, Sesame, Teriyaki Sauce',
-    Group: 'Chicken',
-    category: 'Pizza',
-    price: 10,
-    countInStock: 2,
-    rating: 4,
-    numReviews: 12,
-  },
-  {
-    _id: '13',
-    name: 'Teriyaki Chicken',
-    image: '/images/Teriyaki Chicken.png',
+    image: '/images/TeriyakiChicken.png',
     description:
       'Chicken Breast Fillet, Broccoli, Spring Onion, Sesame, Teriyaki Sauce',
     Group: 'Chicken',
@@ -184,7 +171,7 @@ const products = [
   {
     _id: '14',
     name: 'Veggie Chicken',
-    image: '/images/Veggie Chicken.png',
+    image: '/images/VeggieChicken.png',
     description:
       'Spinach, Vegan Chicken Fillet, Bell Pepper, Feta Cheese',
     Group: 'Veggie',
@@ -196,4 +183,4 @@ const products = [
   }
 ]
 
-export default products
+export default products;
