@@ -1,11 +1,10 @@
 const products = [
   {
-    _id: '1',
     name: 'Bacon & Broccoli',
     image: '/images/Bacon&Broccoli.png',
     description:
       'Bacon, Onion, Garlic, Broccoli, Olive Oil, Mozarrala Cheese',
-    Group: 'Pork',
+    group: 'Pork',
     category: 'Pizza',
     price: 10,
     countInStock: 10,
@@ -13,12 +12,11 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '2',
     name: 'BBQ Poncho',
     image: '/images/BBQPoncho.png',
     description:
       'BBQ sauce, Chicken Breast Fillet, Paprika, Red Onion, Corn ',
-    Group: 'Chicken',
+    group: 'Chicken',
     category: 'Pizza',
     price: 12,
     countInStock: 7,
@@ -26,12 +24,11 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Chicken & Red Onion',
     image: '/images/Chicken&RedOnion.png',
     description:
       'Chicken Breast, Red Onion, Mozzarella Cheese',
-    Group: 'Chicken',
+    group: 'Chicken',
     category: 'Pizza',
     price: 11,
     countInStock: 5,
@@ -39,12 +36,11 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '4',
     name: 'Chilli Salami & Feta',
     image: '/images/ChilliSalami&HerderCheese.png',
     description:
       'Chilli, Salami, Feta Cheese',
-    Group: 'Pork',
+    group: 'Pork',
     category: 'Pizza',
     price: 10,
     countInStock: 11,
@@ -52,12 +48,11 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '5',
     name: 'Conchita',
     image: '/images/Conchita.png',
     description:
       'Groud Beef, BBQ Sauce, Red Onion, Mozzarella Cheese',
-    Group: 'Beef',
+    group: 'Beef',
     category: 'Pizza',
     price: 12,
     countInStock: 7,
@@ -65,12 +60,11 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: 'Creamy Chicken',
     image: '/images/CreamyChicken.png',
     description:
       'Cream Sauce, Fresh Mushrooms, Chicken Breast fillet, Red Onion, Bacon',
-    Group: 'Chicken',
+    group: 'Chicken',
     category: 'Pizza',
     price: 10,
     countInStock: 2,
@@ -78,12 +72,11 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '7',
     name: 'Gourmet',
     image: '/images/Gourmet.png',
     description:
       'Beef Steak Strips, Green Asparagus, Fresh Tomotoes, Hollandaise Sauce',
-    Group: 'Beef',
+    group: 'Beef',
     category: 'Pizza',
     price: 10,
     countInStock: 2,
@@ -91,12 +84,11 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '8',
     name: 'Ground Beef & Corn',
     image: '/images/GroundBeef&Corn.png',
     description:
       'Groud Beef, Corn, Spicy Sauce',
-    Group: 'Beef',
+    group: 'Beef',
     category: 'Pizza',
     price: 10,
     countInStock: 2,
@@ -104,12 +96,11 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '9',
     name: 'Ground Beef & Corn',
     image: '/images/GroundBeef&Corn.png',
     description:
       'Fresh Mushrooms, Red Onion, Mozzarella Cheese',
-    Group: 'Veggie',
+    group: 'Veggie',
     category: 'Pizza',
     price: 10,
     countInStock: 2,
@@ -117,12 +108,11 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '10',
     name: 'Smokey Chicken',
     image: '/images/SmokeyChicken.png',
     description:
       'BBQ Sauce, Chicken Breast Fillet, Red Onion, Cherry Tomatoes, Mozzarella Cheese',
-    Group: 'Chicken',
+    group: 'Chicken',
     category: 'Pizza',
     price: 10,
     countInStock: 2,
@@ -130,12 +120,11 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '11',
     name: 'Steak & Bacon',
     image: '/images/Steak&Bacon.png',
     description:
       'BBQ Sauce, Chicken Breast Fillet, Red Onion, Cherry Tomatoes, Mozzarella Cheese',
-    Group: 'Beef',
+    group: 'Beef',
     category: 'Pizza',
     price: 10,
     countInStock: 2,
@@ -143,12 +132,11 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '12',
     name: 'Supreme Chicken',
     image: '/images/SupremeChicken.png',
     description:
       'Fresh Tomatoes, Chicken Breast Fillet, Red Oion, Bell Pepper',
-    Group: 'Chicken',
+    group: 'Chicken',
     category: 'Pizza',
     price: 10,
     countInStock: 2,
@@ -156,12 +144,11 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '13',
-    name: 'Teriyaki Chicken',
+     name: 'Teriyaki Chicken',
     image: '/images/TeriyakiChicken.png',
     description:
       'Chicken Breast Fillet, Broccoli, Spring Onion, Sesame, Teriyaki Sauce',
-    Group: 'Chicken',
+    group: 'Chicken',
     category: 'Pizza',
     price: 10,
     countInStock: 2,
@@ -169,12 +156,11 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '14',
     name: 'Veggie Chicken',
     image: '/images/VeggieChicken.png',
     description:
       'Spinach, Vegan Chicken Fillet, Bell Pepper, Feta Cheese',
-    Group: 'Veggie',
+    group: 'Veggie',
     category: 'Pizza',
     price: 10,
     countInStock: 2,
