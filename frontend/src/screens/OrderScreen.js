@@ -19,14 +19,14 @@ const OrderScreen = ({match, history}) => {
     const orderDetails = useSelector(state => state.orderDetails);
     const {order, loading, error} = orderDetails;
 
-    console.log('order screen: orderDetails', orderDetails)
+    //console.log('order screen: orderDetails', orderDetails)
 
-    console.log('order screen: order', order)
+    //console.log('order screen: order', order)
 
     const orderPay = useSelector(state => state.orderPay);
     const {loading: loadingPay, success: successPay} = orderPay;
 
-    console.log('orderPay', orderPay)
+    //console.log('orderPay', orderPay)
 
     const userLogin = useSelector((state) => state.userLogin)
     const { userInfo } = userLogin
@@ -43,7 +43,7 @@ const OrderScreen = ({match, history}) => {
    }
 
     useEffect(()=>{
-        console.log('enter useEffect')
+        //console.log('enter useEffect')
 
         if (!userInfo) {
             history.push('/login')
@@ -54,7 +54,7 @@ const OrderScreen = ({match, history}) => {
           const addPayPalScript = async () => {
             const {data: clientId} = await axios.get('/api/config/paypal');
             
-            console.log('clientId', clientId);
+            //console.log('clientId', clientId);
 
             const script = document.createElement('script');
             script.type='text/javascript';
@@ -66,6 +66,7 @@ const OrderScreen = ({match, history}) => {
             document.body.appendChild(script)
         }
 
+        //when paid and when not paid (check if paypal script exists)
         if(!order || successPay || order._id !== orderId){
             dispatch(getOrderDetails(orderId));
             dispatch({type: ORDER_PAY_RESET});
